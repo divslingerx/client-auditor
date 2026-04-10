@@ -1136,7 +1136,7 @@ ${chartJsScript}
     </div>
   </div>
 
-  <div class="ss-footer">${date}</div>
+  <div class="ss-footer">${this.escapeHtml(data.domain)} &nbsp;&bull;&nbsp; ${date}</div>
 </div>`;
   }
 
